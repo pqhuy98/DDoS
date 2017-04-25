@@ -9,5 +9,3 @@ This code contain two version :
 <b>Urllib2 version :</b> used Python urllib2 library to virtually visit the targeted website, increase hit counter of some weak web statistic services like <a target="_blank" href=http://www.histats.com/>Histat</a>.  
   
 Proxy mode doesn't work yet.
-  
-Created by <b>Pham Quang Huy</b>.
